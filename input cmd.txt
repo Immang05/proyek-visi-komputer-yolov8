@@ -1,0 +1,2 @@
+yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=50
+yolo task=detect mode=predict model=best.pt source=images/test
